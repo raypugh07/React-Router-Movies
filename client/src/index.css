@@ -15,7 +15,18 @@ body {
   position: relative;
   margin: 1rem auto;
   text-decoration: none;
+  /*border:solid blue;*/
+  width:200px;
  
+}
+
+.movie-list{
+  /*border:solid red;*/
+  display:flex;
+  flex-direction: column;
+  flex-flow: wrap; 
+  width:800px;
+  margin:auto;
 }
 
 .movie-director {

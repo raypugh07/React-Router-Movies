@@ -6,7 +6,8 @@ body {
 }
 
 .movie-card {
-  background-color: #fff;
+  background-image: linear-gradient(to bottom right, blue,green,blue,gray,green,blue);
+  
   border: 0;
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
     0 2px 4px rgba(0, 0, 0, 0.24);
@@ -14,6 +15,21 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  text-decoration: none;
+  /*border:solid blue;*/
+  width:200px;
+  color:white;
+ 
+}
+
+.movie-list{
+  /*border:solid red;*/
+  display:flex;
+  flex-direction: column;
+  flex-flow: wrap; 
+  width:800px;
+  margin:auto;
+  
 }
 
 .movie-director {
@@ -69,4 +85,14 @@ body {
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
+  
+}
+
+.moviecard{
+  text-decoration: none;
+  color:white ;
+}
+
+.homebtn{
+  text-decoration: none;
 }
